@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+#navbar {
+  display: flex;
+  position: relative;
+}
+
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+#logo {
+  margin: 0.08rem;
+}
+
+#logo img {
+  height: 46px;
+  margin: 1rem 0 1rem 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin-top: 0.9rem;
+}
+
+#navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 1rem 0.9rem;
+}
+
+#navbar ul li a:hover {
+  color: green;
+  -webkit-transform: scale(1.1);
+  text-shadow: 1px 1px;
+  cursor: pointer;
+  
+}
+
+.home {
+  margin: 0 auto;
+  height: 450px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.home::before {
+  content: "";
+  background: url("../images/top-image.jpeg") no-repeat center center/cover;
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+h1 {
+  margin-top: 170px;
+  font-size: 4rem;
+}
+
+.home p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+#tag-line {
+  font-size: 3rem;
+  margin: 30px 0;
+  color: green;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #1aa17b;
+  font-size: 20px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 20px;
+  border: solid #1b7a6a 2px;
+  text-decoration: none;
+  margin-bottom: 29px;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.service-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+}
+
+.service-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#desert {
+  color: rgb(174, 32, 32);
+}
+
+#ice-cream {
+  color: palevioletred;
+}
+
+#main-course {
+  color: rgb(59, 59, 148);
+}
+
+#services {
+  margin-bottom: 24px;
+  padding: 10px;
+  display: flex;
+}
+
+#services .service-box {
+  border: 2px solid rgb(174, 32, 32);
+  border-radius: 10px;
+  margin: 20px;
+  background-color: rgb(246, 246, 246);
+  padding: 20px;
+}
+
+#services .service-box:hover {
+  -webkit-transform: scale(1.05);
+}
+
+#services .service-box img {
+  height: 300px;
+  width: 250px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.feedback-container h1{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+#feedbacks {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  color: white;
+}
+
+#feedbacks::before {
+  content: "";
+  background: url("../images/feedback.jpg") no-repeat center center/cover;
+  position: absolute;
+  height: 750px;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+#feedbacks p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+#feedbacks img {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+
+.left {
+  padding: 20px;
+}
+
+.right {
+  padding: 20px;
+}
+
+.feedback-box-left {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.feedback-box-right {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 50px 0 50px 0;
+}
+
+.contact h1{
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+}
+
+.form-group{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.form-box{
+  margin: 10px;
+  border: none;
+  text-align: center;
+  height: 30px;
+  width: 50vw;
+  font-size: 1.1rem;
+}
+
+.form-button{
+  margin: 10px;
+  border: none;
+  text-align: center;
+}
+
+#form-btn{
+  margin-top: 20px;
+}
+
+.form-button {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  padding: 10px 20px 10px 20px;
+  border: solid black 2px;
+  text-decoration: none;
+}
+
+.form-button:hover {
+  -webkit-transform: scale(1.1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: black;
+}
+
+.social a {
+  text-decoration: none;
+  padding: 20px;
+  color: goldenrod;
+}

@@ -1,0 +1,90 @@
+/* navigation */
+#logo img {
+    
+    margin: 1rem 0 0.3rem 1rem;
+  }
+
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul{
+    margin-top: 0;
+}
+
+#navbar ul li a {
+    padding: 0 0.9rem 0 0.9rem;
+  }
+
+/* Home */
+.home{
+    height: 600px;
+}
+
+.home::before{
+    height: 920px;
+    width: 105vw;
+    
+}
+
+.home h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.home p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Services */
+.service-container{
+    display: block;
+    margin-top: 240px;
+}
+
+#services{
+    flex-direction: column;
+}
+
+.service-title{
+    padding-top: 20px;
+}
+
+
+/* Feedback */
+
+#feedbacks::before{
+    width: 105vw;
+    height: 1300px;
+}
+
+.feedback-box-left{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90vw;
+}
+
+.feedback-box-right{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90vw;
+}
+
+/* Contact */
+
+
+
+
+/* Social */
+.social a{
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
